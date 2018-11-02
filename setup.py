@@ -49,8 +49,8 @@ pyipopt_extension = Extension(
         library_dirs=[IPOPT_LIB],
         libraries=[
             'ipopt', 'coinblas',
-            #'coinhsl',
-            'coinmumps',
+            'coinhsl',
+            #'coinmumps',
             'coinmetis',
             'coinlapack','dl','m',
             ],
